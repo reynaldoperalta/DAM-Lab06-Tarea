@@ -11,7 +11,7 @@ import Video from 'react-native-video';
 
 export default class Videos extends Component {
     render() {
-        const earthVideo = require('./chief.mp4');
+        const earthVideo = require('./blur.mp4');
         return (
             <Fragment>
             <Video source={earthVideo}
